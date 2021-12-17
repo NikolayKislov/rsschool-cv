@@ -35,3 +35,39 @@ Started career as a musician, graduated from Gnesin Russian Academy of Music.<br
 
 ---
 
+### Code Example
+
+---
+
+
+```
+function multiply(a, b){
+  return a * b
+}
+
+```
+
+---
+
+### Expirience
+
+---
+
+### Edication 
+
+---
+
+* __University__ : <br>
+   *   [Russian Academy of Music](https://gnesin-academy.ru/)
+* __Courses__ :
+   * [FreeCodeCamp](https://www.freecodecamp.org/)
+
+---
+
+### English 
+
+---
+
+__B1__ (I had been practising English, when I worked in multilang orchestra)
+
+---
