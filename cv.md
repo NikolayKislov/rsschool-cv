@@ -49,11 +49,11 @@ function multiply(a, b){
 
 ---
 
-### Expirience
+### Experience
 
 ---
 
-### Edication 
+### Education 
 
 ---
 
