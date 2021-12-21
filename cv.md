@@ -2,7 +2,8 @@
 
 ---
 
-![ProfilePhoto](IMG_0131.png)
+<img src="https://github.com/NikolayKislov/rsschool-cv/blob/gh-pages/IMG_0131.png" width="150">
+
 ### Contacts :
 
 ---
