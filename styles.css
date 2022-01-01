@@ -1,3 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+}
 body{
-    height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#wrapper{
+  height: 100%;
+  width: 75vw;
+  position: relative;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20.46vw;
+  background: url(assets/img/motherboard.png);
+  background-position:center ;
+}
+#content {
+  position: relative;
+  width: 59.375vw;
+  height: 12.656vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+#profile-img{
+position: static;
+width: 12.656vw;
+height: 12.656vw;
+left: 0px;
+top: 0px;
+margin-right: 2.4vw;
+
+border: 0.25vw solid #E4F1F4;
+box-sizing: border-box;
+border-radius: 52.083333333333336vw;
+}
+#contacts {
+  width: 44.21875vw;
+  height: 11.3541vw;
+  margin-right: 0;
+}
+h1 {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+ h1 span{
+  letter-spacing: 0.1em;
+  font-weight: 200;
+  color: #FFFFFF;
+}
+#profession{
+  font-size: 1.125em;
+  font-weight: normal;
+  text-transform: capitalize;
+  line-height:1.25vw;
+  margin-top: 1vw;
+  color: #FFFFFF;
+}
+
+#content ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1.0416vw;
+  color: #FFFFFF;
+  margin-left: -0.45vw ;
+}
+#content ul li {
+background: rgba(27, 43, 55, 0.7);
+border-radius: 15px;
+padding: 0.3vw 1.7vw;
+list-style-type: none;
+}
+#content ul li, ul li p {
+  display:flex;
+  flex-direction: column;
+
+}
+#content ul li img{
+  padding-top:0.7vw;
+  width: 0.7291vw;
+  align-self: center;
+}
+#content ul li p{
+  display: block;
+  text-align: center;
+  margin-top: 1vw;
+  font-size: 0.8rem;
+}
+#content ul li p a{
+  display: block;
+  text-align: center;
+  margin-top: 0.5vw;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#content ul li p a:hover {
+  background-color: #E67E22;
+  border-radius: 0.2vw;
+  transition: 750ms ease-out;
 }
