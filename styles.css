@@ -111,4 +111,213 @@ list-style-type: none;
   background-color: #E67E22;
   border-radius: 0.2vw;
   transition: 750ms ease-out;
-}
+}main {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height:1900px;
+    }
+    nav{
+      background: #E4F1F4;
+      width: 21.354vw;
+      flex: 0 1 auto;
+      
+    }
+    nav ul{
+      display: flex;
+      flex-direction: column;
+      align-content: left;
+      position: relative;
+      left: 10vw;
+    }
+    nav ul li{
+      list-style-type: none;
+      line-height: 19.82px;
+      margin-top: 3vw;
+    }
+    nav ul li a{
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #03121E;
+      font-size: 0.9em;
+    }
+    
+    nav ul li a:hover {
+      font-weight: 800;
+      border-bottom: 2px #E67E22 solid;
+      transition: 750ms ease-out;
+      letter-spacing: 0.1vw;
+    }
+    
+    #main{
+      background: #F5F7F9;
+      width: 53.68vw;
+    }
+    
+    #about-me {
+      width: 53.645vw;
+      height: 11.718vw;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: -3vw;
+    }
+    section img{
+      width: 1.041vw;
+      height: 1.041vw;
+      position: relative;
+      top: 3vw;
+      left: 3vw;
+    }
+    section h2 {
+      position: relative;
+      top: 1vw;
+      left: 7vw;
+      text-transform: uppercase;
+    }
+    section p {
+      position: relative;
+      text-align: left;
+      top: 2vw;
+      padding-left: 7vw;
+      padding-right: 6vw;
+      font-size: 1em;
+      font-weight: 400;
+      color: rgba(27, 43, 55, 0.7)
+    }
+    #gnes{
+      position: relative;
+      top: 3vw;
+    }
+    #rs {
+      position: relative;
+      top: 8vw;
+    }
+    #gnes a, #rs a{
+      margin-left: 7vw;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #2D6C99;
+      font-size: 0.937vw;
+      font-weight: 800;
+    }
+    #gnes p, #rs p {
+      font-size: 0.781vw;
+    }
+    .uppercase {
+      text-transform: uppercase;
+      color: #000000;
+      font-weight: 800;
+    }
+    #skills {
+      position: relative;
+      top: 12vw;
+      display: inline-block;
+    }
+    #hard-skills .blue-p, #soft-skills .blue-p{
+      position: relative;
+     top: 3vw;
+     left: 0.3vw;
+     text-transform: uppercase;
+     color: #2D6C99;
+     font-size: 0.8999vw;
+     font-weight: 800;
+    }
+    #hard-skills ul{
+      margin-top: 2vw;
+      margin-left: .3vw;
+    }
+    #hard-skills ul li img{
+      position: relative;
+      top: 3.7vw;
+    }
+    #hard-skills ul li{
+      list-style: none;
+    }
+    #hard-skills ul li p{
+      font-size: 0.70000vw;
+      margin-top: 0.3vw;
+      margin-left: -1vw;
+    }
+    
+    #hard-skills progress{
+      position: relative;
+      top: 0.7vw;
+      left: 10vw;
+    } 
+    #soft-skills {
+      display: inline-block;
+      position: relative;
+      top: -18vw;
+      left: 27vw;
+    }
+    #soft-skills ul li{
+      display: flex;
+      flex-direction: row;
+    }
+    #soft-skills ul p{
+      margin-top: 2.7vw;
+      margin-left: -2vw;
+      font-size: 0.70000vw;
+    }
+    #soft-skills ul li p{
+      position: relative;
+      top: 2.9vw;
+      left: 2vw;
+      text-transform: capitalize;
+    }
+    #soft-skills ul li img{
+      position: relative;
+      top: 5.7vw;
+    }
+    #language .blue-p{
+      color: #2D6C99;
+      position: relative;
+      top: 3vw;
+      font-weight: 800;
+    }
+    #language p{
+      position: relative;
+      top: 3vw;
+      left: 0.2vw;
+    }
+    #projects{
+      position: relative;
+      top: 7vw;
+    }
+    #projects p{
+      position: relative;
+      top: 3vw;
+    }
+    #projects a{
+      position: relative;
+      top: 3vw;
+      left: 7vw;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #2D6C99;
+      font-size: 0.937vw;
+      font-weight: 800;
+    }
+    #projects h2 {
+      top: 1.3vw;
+    }
+    #projects pre {
+      position: relative;
+      top: 6vw;
+      left: 7vw;
+      background: darkgray;
+      width: fit-content;
+      text-align: center;
+      color: darkred;
+    } 
+    #projects .blue-p{
+      color: #2D6C99;
+      position: relative;
+      top: 3vw;
+      font-weight: 800;
+    }
+    .blue-pp{
+      color: #2D6C99;
+      margin-top: 3vw;
+      font-weight: 800;
+    }
