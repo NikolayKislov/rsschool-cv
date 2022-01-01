@@ -321,3 +321,31 @@ list-style-type: none;
       margin-top: 3vw;
       font-weight: 800;
     }
+    #footer-wrapper{
+        background-color: #1B2B37;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
+      #year{
+        font-size: 25px ;
+        color: white;
+      }
+      #github a{
+      display: block;
+      background-image: url(assets/img/GitHub-footer.png);
+      background-position: center;
+      background-size: cover;
+      width: 75px;
+      height: 75px;
+      }
+      #rsschool a{
+        display: block;
+      background-image: url(assets/img/rsscool-png.png);
+      background-position: center;
+      background-size: cover;
+      width: 150px;
+      height:56px;
+      }
