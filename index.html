@@ -4,144 +4,180 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV-Html</title>
+    <title>cv-html</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="wrapper">
         <header>
-            <div id="content">
-                <img id="profile-img" src="assets/img/IMG_0131.png" alt="profile-photo"> 
-                <div id="contacts">
-                    <h1>nikolay <span>kislov</span></h1>
-                    <p id="profession">junior frontend developer</p>
-                    <ul>
-                        <li>
-                            <img src="assets/img/location-pin.png" alt="location-pin">
-                                <p>Location :<a href="https://en.wikipedia.org/wiki/Moscow">Moscow, Russia</a></p>
-                        </li>
-                        <li>
-                            <img src="assets/img/phone-call.png" alt="phone-call">
-                                <p>Phone :<a href="tel:+79996298720">+79996298720</a></p>
-                        </li>
-                        <li>
-                            <img src="assets/img/email.png" alt="email">
-                                <p>E-mail :<a href="mailto:nikolaykislov888@gmail.com">nikolaykislov888@gmail.com</a></p>
-                        </li>
-                        <li>
-                            <img src="assets/img/github-sign-white.png" alt="github-sign">
-                                <p>GitHub :<a href="https://github.com/NikolayKislov">NikolayKislov</a></p>
-                        </li>
-                    </ul>
+            <div id="header-container">
+                <div id="photo">
+                    <img src="/assets/img/IMG_0131.png" alt="profile-photo">
+                </div>
+                <div id="info-container">
+                    <div id="name">
+                        <h1>nikolay <span>kislov</span></h1>
+                        <p>Future junior front-end developer.</p>
+                    </div>
+                        <div class="info-unit-container">
+                            <ul>
+                                <li class="unit1">
+                                    <img src="/assets/img/location-pin.png" alt="location">
+                                    <p>location</p>
+                                    <p>Moscow,<br>Russia</p>
+                                </li>
+                                <li class="unit2">
+                                    <img src="/assets/img/phone-call.png" alt="phone-call">
+                                    <p>phone</p>
+                                    <a href="mailto:+79996298720">+79996298720</a>
+                                </li>
+                                <li class="unit3">
+                                    <img src="/assets/img/email.png" alt="e-mail">
+                                    <p>e-mail</p>
+                                    <a href="mailto:nikolaykislov888@gmail.com">nikolaykislov<br>888@gmail.com</a>
+                                </li>
+                                <li class="unit4">
+                                    <img src="/assets/img/github-sign-white.png" alt="github">
+                                    <p>github</p>
+                                    <a href="https://github.com/NikolayKislov">GitHub</a>
+                                </li>
+                            </ul>
+                        </div>  
                 </div>
             </div>
         </header>
         <main>
             <nav>
                 <ul>
-                    <li><a href="#about-me">about me</a></li>
-                    <li><a href="#education">education</a></li>
-                    <li><a href="#skills">skills</a></li>
-                    <li><a href="#language">languages</a></li>
-                    <li><a href="#projects">code example</a></li>
+                    <li><a href="">about me</a></li>
+                    <li><a href="">education</a></li>
+                    <li><a href="">skills</a></li>
+                    <li><a href="">language</a></li>
+                    <li><a href="">code example</a></li>
+                    <li><a href="">projects</a></li>
+
+                    
                 </ul>
             </nav>
-            
             <div id="main">
-                <section id="about-me">
-                    <div>
-                    <img src="assets/img/chat.png" alt="chat">
-                    <h2>about me</h2>
+                <div class="main-el1">
+                    <div class="img-h2">
+                        <img src="/assets/img/chat.png" alt="about">
+                        <h2>about me</h2>
                     </div>
-                    <p>Started career as a musician, graduated from Gnesin Russian Academy of Music.
-                        Got 10 years of working experience as an orchestral musician and decided to change career vector.</p>
-                </section>
-                <section id="education">
-                    <img src="assets/img/college-graduation.png" alt="graduated">
-                    <h2>education</h2>
-                    <div id="gnes">
-                        <a href="http://eng.gnesin-academy.ru/">Gnesin Russian Academy of Music</a>
-                        <p>2017-2021</p>
-                        <p class="uppercase">instrumental performance, bachelor (french horn)</p>
+                    <div id="about-p"><p>Started career as a musician, graduated from Gnesin Russian Academy of Music.
+                        Got 10 years of working experience as an orchestral musician and decided to change career vector.</p></div>
+                </div>
+                <div class="main-el2">
+                    <div class="img-h2">
+                        <img src="/assets/img/college-graduation.png" alt="graduation">
+                        <h2>education</h2>
                     </div>
-                    <div id="rs">
-                        <a href="https://rs.school/js-stage0/">RS Schools (ongoing)</a>
-                        <p>2021</p>
-                        <p class="uppercase">js / front-end courses</p>
+                    <div id="education-info">
+                        <div id="gnes">
+                            <a href="http://eng.gnesin-academy.ru/">Gnesin Russian Academy of Music </a>
+                            <p class="year">2017-2021</p>
+                            <p class="prof">Instrumental performance, bachelor (french horn)</p>
+                        </div>
+                        <div id="rs">
+                            <a href="https://rs.school">RS SCHOOL</a>
+                            <p class="year">2021(ongoing)</p>
+                            <p class="prof">JS / FRONT-END COURSES</p>
+                            
+                        </div>
                     </div>
-                </section>
-                <section id="skills">
-                    <img src="assets/img/settings.png" alt="settings">
-                    <h2>skills</h2>
-                    <div id="hard-skills">
-                        <p class="blue-p">hard skills</p>
-                        <ul>
-                            <li>
-                                <img src="assets/img/html.png" alt="html">
-                                    <p>HTML</p>
-                                <progress value="6.5" max="7" ></progress>
-                            </li>
-                            <li>
-                                <img src="assets/img/css.png" alt="css">
-                                    <p>CSS</p>
-                                <progress value="5.5" max="7" ></progress>
-                            </li>
-                            <li>
-                                <img src="assets/img/java-script.png" alt="js">
-                                    <p>JavaScript</p>
-                                <progress value="5.9" max="7" ></progress>
-                            </li>
-                            <li>
-                                <img src="assets/img/github-sign.png" alt="github">
-                                    <p>Git</p>
-                                <progress value="5.4" max="7" ></progress>
-                            </li>
-                        </ul>
+                </div>
+                <div class="main-el3">
+                    <div class="img-h2">
+                        <img src="/assets/img/settings.png" alt="skills">
+                        <h2>skills</h2>
                     </div>
-                    <div id="soft-skills">
-                        <p class="blue-p">soft-skills</p>
-                        <ul>
-                            <li>
-                                <img src="assets/img/black-check-box-with-white-check.png" alt="check">
-                                <p>master of communication</p>
-                            </li>
-                            <li>
-                                <img src="assets/img/black-check-box-with-white-check.png" alt="check">
-                                <p>fast learner</p>
-                            </li>
-                            <li>
-                                <img src="assets/img/black-check-box-with-white-check.png" alt="check">
-                                <p>interpersonal conflicts solver</p>
-                            </li>
-                            <li>
-                                <img src="assets/img/black-check-box-with-white-check.png" alt="check">
-                                <p>diligent worker</p>
-                            </li>
-                        </ul>
+                    <div id="skill-wrapper">
+                        <div id="hard-skills">
+                            <h2>hard-skills</h2>
+                            <ul>
+                                <li>
+                                    <img src="/assets/img/html.png" alt="html">
+                                    <p>html</p>
+                                </li>
+                                <li>
+                                    <img src="/assets/img/css.png" alt="css">
+                                    <p>css</p>
+                                </li>
+                                <li>
+                                    <img src="/assets/img/java-script.png" alt="js">
+                                    <p>javascript</p>
+                                </li>
+                                <li>
+                                    <img src="/assets/img/github-sign.png" alt="git">
+                                    <p>git</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="soft-skills">
+                            <h2>soft-skills</h2>
+                            <ul>
+                                <li>
+                                    <img src="/assets/img/black-check-box-with-white-check.png" alt="check">
+                                    <p>Master of Communication</p>
+                                </li>
+                                <li>
+                                    <img src="/assets/img/black-check-box-with-white-check.png" alt="check">
+                                    <p>Fast Learner</p>
+                                </li>
+                                <li>
+                                    <img src="/assets/img/black-check-box-with-white-check.png" alt="check">
+                                    <p>Interpersonal problem Solver</p>
+                                </li>
+                                <li>
+                                    <img src="/assets/img/black-check-box-with-white-check.png" alt="check">
+                                    <p>Diligent Worker</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </section>
-                <section id="language">
-                    <img src="assets/img/language.png" alt="lang-icon">
-                    <h2>language</h2>
-                    <p class="blue-p">B1</p>
-                    <p>I had been practicing English, when i worked in multilang orchestra.</p>
-                </section>
-                <section id="projects">
-                    <img src="assets/img/suitcase.png" alt="suitcase">
-                    <h2>projects and code example</h2>
-                    <p>I don't have much experience of real development process yet, but i can share some of my current studying works.</p>
-                    <p class="blue-p">Projects</p>
-                    <a href="https://github.com/NikolayKislov/rsschool-cv">This is my take on cv</a>
-                    <p class="blue-pp">Code Example</p>
-                    <pre>
-                        <code>
-                    function multiply(a, b){            
-                return a * b
-                      }
-                              
-                        </code>
-                    </pre>
-                </section>
+                </div>
+                <div class="main-el4">
+                    <div class="img-h2">
+                        <img src="/assets/img/language.png" alt="language">
+                        <h2>language</h2>
+                    </div>
+                    <div id="lang">
+                        <h2>b1</h2>
+                        <p>I had been practising English, when I worked in multilang orchestra</p>
+                    </div>
+                </div>
+                <div class="main-el5">
+                    <div class="img-h2">
+                        <img src="/assets/img/code.png" alt="code">
+                        <h2>code example</h2>
+                    </div>
+                    <div id="code">
+                        <pre>
+                            <code>
+const convertText = (string) => {                       
+    if (string === '') {                                
+        return '';                                      
+     } else if (string[0] !== string[0].toUpperCase()) {
+         return reverse(string);                        
+    } else {                                            
+      return string;                                    
+    }                                                   
+     }                                                  
+                                                        </code>                     
+                        </pre>
+                    </div>
+                </div>
+                <div class="main-el6">
+                    <div class="img-h2">
+                        <img src="/assets/img/suitcase.png" alt="suitcase">
+                        <h2>projects</h2>
+                    </div>
+                    <div id="info">
+                        <p>I don't have much experience of real development process yet, but i can share some of my current studying works.</p>
+                        <a href="https://nikolaykislov.github.io/rsschool-cv/">This is my take on cv</a>
+                    </div>
+                </div>
             </div>
         </main>
         <footer>
@@ -156,7 +192,7 @@
                     <a href="https://rs.school/js-stage0/"></a>
                 </div>
             </div>
-        </footer>    
+        </footer>
     </div>
 </body>
 </html>
