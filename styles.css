@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+#wrapper{
+ width: 1440px; 
+ margin: 0 auto;
+ background-color: green;
+}
+header{
+position: relative;
+width: 1440px;
+height: 393px;
+left: 0px;
+top: 0px;
+background: url(./assets/img/motherboard.png);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#header-container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+position: relative;
+width: 1140px;
+height: 243px;
+left: 150px;
+top: 70px;
+}
+#photo img{
+position: static;
+width: 243px;
+height: 243px;
+left: 0px;
+top: 0px;
+border: 4px solid #E4F1F4;
+box-sizing: border-box;
+border-radius: 1000px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 33px;
+}
+#info-container {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 849px;
+height: 218px;
+left: 291px;
+top: 12.5px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 33px;
+}
+#name {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 450px;
+height: 81px;
+left: 0px;
+top: 0px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+#name h1 {
+position: static;
+width: 450px;
+height: 40px;
+left: 0px;
+top: 0px;
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 40px;
+text-align: left;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #E4F1F4;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+}
+#name h1 span {
+  font-weight: 200;
+}
+#name p {
+position: static;
+width: 450px;
+height: 25px;
+left: 0px;
+top: 56px;
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+text-align: left;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+}
+.info-unit-container ul{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+position: relative;
+width: 849px;
+height: 107px;
+left: -17px;
+top: 20px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 30px 0px;
+list-style: none;
+}
+.unit1{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 20px;
+position: static;
+width: 183px;
+height: 107px;
+left: 0px;
+top: 0px;
+background: rgba(27, 43, 55, 0.7);
+border-radius: 15px;
+margin: 0px 15px;
+}
+.unit2 {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 20px;
+position: static;
+width: 197px;
+height: 107px;
+left: 198px;
+top: 0px;
+background: rgba(27, 43, 55, 0.7);
+border-radius: 15px;
+margin: 0px 15px;
+}
+.unit3{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 20px;
+position: static;
+width: 276px;
+height: 107px;
+left: 410px;
+top: 0px;
+background: rgba(27, 43, 55, 0.7);
+border-radius: 15px;
+margin: 0px 15px;
+}
+.unit4 {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 20px;
+position: static;
+width: 148px;
+height: 107px;
+left: 701px;
+top: 0px;
+background: rgba(27, 43, 55, 0.7);
+border-radius: 15px;
+margin: 0px 15px;
+}
+ul li p{
+position: relative;
+width: 90px;
+height: 18px;
+top: 10px;
+text-align: center;
+font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 13px;
+line-height: 18px;
+letter-spacing: 0.34em;
+text-transform: uppercase;
+color: #E4F1F4;
+margin: 10px 0px;
+}
+ul li a{
+position: static;
+text-decoration: none;
+text-align: center;
+width: 108px;
+height: 25px;
+left: 20px;
+top: 67px;
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 10px 0px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+nav {
+position: relative;
+width: 410px;
+height: 1800px;
+left: 0px;
+top: 0px;
+background: #E4F1F4;
+}
+nav ul{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 260px;
+height: 420px;
+right: 0px;
+top: 40px;
+}
+nav ul li{
+margin-bottom: 30px;
+list-style-type: none;
+}
+nav ul a{
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.34em;
+text-transform: uppercase;
+color: #03121E;
+}
+#main {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position:relative;
+width: 1030px;
+height: 1800px;
+left: 0px;
+top: 0px;
+background: #F5F7F9;
+}
+.main-el1, .main-el2, .main-el3, .main-el4, .main-el5, .main-el6{
+position: relative;
+top: 100px;
+left: 69px;
+margin-bottom: 70px;
+}
+.img-h2{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.img-h2 h2{
+margin-left: 40px;
+font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 20px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #1B2B37;
+}
+.img-h2 img {
+  width: 35px;
+  height: 35px;
+}
+#about-p {
+position: relative;
+width: 763px;
+height: 60px;
+left: 75px;
+top: 20px;
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: rgba(27, 43, 55, 0.7);
+}
+#education-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+#gnes{
+  margin-bottom: 100px;
+}
+#education-info a{
+position: relative;
+width: 835px;
+height: 30px;
+left: 75px;
+top: 15px;
+font-family: Manrope;
+text-decoration:none;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 34px;
+display: flex;
+align-items: center;
+color: #2D6C99;
+}
+#education-info .year{
+position: relative;
+text-transform: uppercase;
+width: 835px;
+height: 15px;
+left: 75px;
+top: 30px;
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 15px;
+color: rgba(27, 43, 55, 0.6);
+}
+#education-info .prof{
+position: relative;
+text-transform: uppercase;
+width: 543px;
+height: 19px;
+left: 75px;
+top: 50px;
+font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #000000;
+}
+#skill-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  justify-content: space-around;
+  margin-left: -13px ;
+}
+#skill-wrapper h2, #lang h2{
+margin-left: 0px;
+margin-top: 20px;
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+text-transform: uppercase;
+line-height: 34px;
+color: #2D6C99;
+}
+#hard-skills ul, #soft-skills ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  margin-top: 30px;
+}
+#hard-skills ul li, #soft-skills ul li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#hard-skills ul li img, #soft-skills ul li img{
+  width: 25px;
+  height: 25px;
+  margin-top: 20px;
+}
+#hard-skills ul p, #soft-skills ul p {
+width: 300px;
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 19px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: rgba(27, 43, 55, 0.6);
+}
+#lang{
+  position: relative;
+  left: 75px;
+}
+#lang p {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: rgba(27, 43, 55, 0.7);
+}
+pre code {
+  background-color: lightgray;
+  width: 500px;
+}
+#info {
+  position: relative;
+  top: 20px;
+  left: 75px;
+}
+#info p{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: rgba(27, 43, 55, 0.7);
+margin-bottom: 30px;
+}
+#info a {
+text-transform: uppercase;
+text-decoration: none;
+font-weight: 800;
+font-size: 18px;
+line-height: 34px;
+display: flex;
+align-items: center;
+color: #2D6C99;
+}
+#footer-wrapper{
+  background-color: #1B2B37;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#year{
+  font-size: 25px ;
+  color: white;
+}
+#github a{
+display: block;
+background-image: url(assets/img/GitHub-footer.png);
+background-position: center;
+background-size: cover;
+width: 75px;
+height: 75px;
+}
+#rsschool a{
+  display: block;
+background-image: url(assets/img/rsscool-png.png);
+background-position: center;
+background-size: cover;
+width: 150px;
+height:56px;
+}
+a:hover {
+  font-weight: 800;
+  transition: 0.6s ease;
+  letter-spacing: 0.05vw;
+}
