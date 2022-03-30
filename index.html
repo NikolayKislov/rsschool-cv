@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv-html</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="header-container">
+                <div id="photo">
+                    <img src="assets/img/IMG_0131.png" alt="profile-photo">
+                </div>
+                <div id="info-container">
+                    <div id="name">
+                        <h1>nikolay <span>kislov</span></h1>
+                        <p>Future junior front-end developer.</p>
+                    </div>
+                        <div class="info-unit-container">
+                            <ul>
+                                <li class="unit1">
+                                    <img src="assets/img/location-pin.png" alt="location">
+                                    <p>location</p>
+                                    <p>Moscow,<br>Russia</p>
+                                </li>
+                                <li class="unit2">
+                                    <img src="assets/img/phone-call.png" alt="phone-call">
+                                    <p>phone</p>
+                                    <a href="mailto:+79996298720">+79996298720</a>
+                                </li>
+                                <li class="unit3">
+                                    <img src="assets/img/email.png" alt="e-mail">
+                                    <p>e-mail</p>
+                                    <a href="mailto:nikolaykislov888@gmail.com">nikolaykislov<br>888@gmail.com</a>
+                                </li>
+                                <li class="unit4">
+                                    <img src="assets/img/github-sign-white.png" alt="github">
+                                    <p>github</p>
+                                    <a href="https://github.com/NikolayKislov">GitHub</a>
+                                </li>
+                            </ul>
+                        </div>  
+                </div>
+            </div>
+        </header>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="">about me</a></li>
+                    <li><a href="">education</a></li>
+                    <li><a href="">skills</a></li>
+                    <li><a href="">language</a></li>
+                    <li><a href="">code example</a></li>
+                    <li><a href="">projects</a></li>
+
+                    
+                </ul>
+            </nav>
+            <div id="main">
+                <div class="main-el1">
+                    <div class="img-h2">
+                        <img src="assets/img/chat.png" alt="about">
+                        <h2>about me</h2>
+                    </div>
+                    <div id="about-p"><p>Started career as a musician, graduated from Gnesin Russian Academy of Music.
+                        Got 10 years of working experience as an orchestral musician and decided to change career vector.</p></div>
+                </div>
+                <div class="main-el2">
+                    <div class="img-h2">
+                        <img src="assets/img/college-graduation.png" alt="graduation">
+                        <h2>education</h2>
+                    </div>
+                    <div id="education-info">
+                        <div id="gnes">
+                            <a href="http://eng.gnesin-academy.ru/">Gnesin Russian Academy of Music </a>
+                            <p class="year">2017-2021</p>
+                            <p class="prof">Instrumental performance, bachelor (french horn)</p>
+                        </div>
+                        <div id="rs">
+                            <a href="https://rs.school">RS SCHOOL</a>
+                            <p class="year">2021(ongoing)</p>
+                            <p class="prof">JS / FRONT-END COURSES</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="main-el3">
+                    <div class="img-h2">
+                        <img src="assets/img/settings.png" alt="skills">
+                        <h2>skills</h2>
+                    </div>
+                    <div id="skill-wrapper">
+                        <div id="hard-skills">
+                            <h2>hard-skills</h2>
+                            <ul>
+                                <li>
+                                    <img src="assets/img/html.png" alt="html">
+                                    <p>html</p>
+                                </li>
+                                <li>
+                                    <img src="assets/img/css.png" alt="css">
+                                    <p>css</p>
+                                </li>
+                                <li>
+                                    <img src="assets/img/java-script.png" alt="js">
+                                    <p>javascript</p>
+                                </li>
+                                <li>
+                                    <img src="assets/img/github-sign.png" alt="git">
+                                    <p>git</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="soft-skills">
+                            <h2>soft-skills</h2>
+                            <ul>
+                                <li>
+                                    <img src="assets/img/black-check-box-with-white-check.png" alt="check">
+                                    <p>Master of Communication</p>
+                                </li>
+                                <li>
+                                    <img src="assets/img/black-check-box-with-white-check.png" alt="check">
+                                    <p>Fast Learner</p>
+                                </li>
+                                <li>
+                                    <img src="assets/img/black-check-box-with-white-check.png" alt="check">
+                                    <p>Interpersonal problem Solver</p>
+                                </li>
+                                <li>
+                                    <img src="assets/img/black-check-box-with-white-check.png" alt="check">
+                                    <p>Diligent Worker</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-el4">
+                    <div class="img-h2">
+                        <img src="assets/img/language.png" alt="language">
+                        <h2>language</h2>
+                    </div>
+                    <div id="lang">
+                        <h2>b1</h2>
+                        <p>I had been practising English, when I worked in multilang orchestra</p>
+                    </div>
+                </div>
+                <div class="main-el5">
+                    <div class="img-h2">
+                        <img src="assets/img/code.png" alt="code">
+                        <h2>code example</h2>
+                    </div>
+                    <div id="code">
+                        <pre>
+                            <code>
+const convertText = (string) => {                       
+    if (string === '') {                                
+        return '';                                      
+     } else if (string[0] !== string[0].toUpperCase()) {
+         return reverse(string);                        
+    } else {                                            
+      return string;                                    
+    }                                                   
+     }                                                  
+                                                        </code>                     
+                        </pre>
+                    </div>
+                </div>
+                <div class="main-el6">
+                    <div class="img-h2">
+                        <img src="assets/img/suitcase.png" alt="suitcase">
+                        <h2>projects</h2>
+                    </div>
+                    <div id="info">
+                        <p>I don't have much experience of real development process yet, but i can share some of my current studying works.</p>
+                        <a href="https://nikolaykislov.github.io/rsschool-cv/">This is my take on cv</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="footer-wrapper">
+                <div id="github">
+                    <a href="https://github.com/NikolayKislov"></a>
+                </div>
+                <div id="year">
+                    <p>&copy; Nikolay Kislov, 2021</p>
+                </div>
+                <div id="rsschool">
+                    <a href="https://rs.school/js-stage0/"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
